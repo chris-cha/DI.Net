@@ -1,0 +1,6 @@
+C:\Users\Chris Cha\Documents\Projects\c#\DI.Net\chap1-adapter-console\chap1-adapter-console\obj\Debug\chap1-adapter-console.csprojResolveAssemblyReference.cache
+C:\Users\Chris Cha\Documents\Projects\c#\DI.Net\chap1-adapter-console\chap1-adapter-console\bin\Debug\chap1-adapter-console.exe.config
+C:\Users\Chris Cha\Documents\Projects\c#\DI.Net\chap1-adapter-console\chap1-adapter-console\bin\Debug\chap1-adapter-console.exe
+C:\Users\Chris Cha\Documents\Projects\c#\DI.Net\chap1-adapter-console\chap1-adapter-console\bin\Debug\chap1-adapter-console.pdb
+C:\Users\Chris Cha\Documents\Projects\c#\DI.Net\chap1-adapter-console\chap1-adapter-console\obj\Debug\chap1-adapter-console.exe
+C:\Users\Chris Cha\Documents\Projects\c#\DI.Net\chap1-adapter-console\chap1-adapter-console\obj\Debug\chap1-adapter-console.pdb
