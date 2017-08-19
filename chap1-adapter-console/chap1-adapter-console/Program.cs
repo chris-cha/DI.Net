@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Configuration;
 using System.Threading.Tasks;
 
-namespace chap1_adapter_console
+namespace chap1_adapter_console.HelloDI.CommandLine
 {
     class Program
     {
         static void Main(string[] args)
         {
-            IMessageWriter messagewriter = new ConsoleMessageWriter();
+            //for late binding
+            var typeName = ConfigurationManager.AppSettings["messageWriter"];
+            var type = Type.GetType(typeName, true);
+            IMessageWriter messagewriter = (IMessageWriter)Activator.CreateInstance(type);
+
             var salutation = new Salutation(messagewriter);
             salutation.Exclaim();
         }
